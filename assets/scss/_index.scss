@@ -1,0 +1,33 @@
+
+    .banner{
+        
+@media (min-width:$breakpoint-lg){
+      background: url(../images/index1.jpg) ;
+      background-position: center;  
+          background-size: cover;
+          height: 870px;  
+
+    }
+    @media(max-width:991.98px){
+        background: url(../images/index1.jpg) ;
+        background-position: center;  
+            background-size: cover;
+            height: 400px;  
+  
+    }
+}
+
+.banner-secondary{
+    background: url(../images/index10.jpg) no-repeat;
+    background-position: center;  
+
+        background-size: cover;
+        height: 600px;
+}
+.picIndex-8{
+    background: url(../images/index8.jpg) no-repeat;
+    background-position: center;  
+
+        background-size: cover;
+        height: 540px;
+}

@@ -1,0 +1,542 @@
+h1,h2,h3,h4{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.hideWord {
+    
+	text-indent: 101% !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+}
+.primary{
+    color: #916019 !important;
+}
+.secondary{
+    color: #8D8D8D !important;
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+            &-grey{
+
+                color: #8D8D8D !important;
+            }
+
+        }
+    }
+}
+.third{
+    color: #E0E0E0 !important;
+}
+.fourth{
+    color: #AC8A46 !important;
+}
+.grey{
+    &-500{
+        color: #848484;
+    }
+    &-400{
+        color: #8D8D8D;
+    }
+    &-300{
+        color:#818A91;
+
+    }
+    &-200{
+        color:#A5A5A5;
+    }
+    &-100{
+        color:#CED4DA;
+    }
+}
+
+.mb{
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+            &-5{
+                margin-bottom: $space-lg-5 !important;
+            }
+            &-6{
+                margin-bottom:$space-lg-6!important;
+            
+            }
+            &-7{
+                margin-bottom: $space-lg-7!important;
+            }
+            &-8{
+                margin-bottom: $space-lg-8!important;
+            }
+        }
+
+    }
+    @media (min-width: $breakpoint-sm){
+        &-5{
+            margin-bottom: $space-lg-5 !important;
+        }
+        &-6{
+            margin-bottom:$space-lg-6!important;
+        
+        }
+        &-7{
+            margin-bottom: $space-lg-7!important;
+        }
+        &-8{
+            margin-bottom: $space-lg-8!important;
+        }
+    }
+
+    
+
+}
+.ml{
+    @media (min-width: $breakpoint-lg){
+
+        &-lg{
+    
+            &-5{
+             margin-left: $space-lg-5!important;
+            }
+            &-6{
+             margin-left:$space-lg-6!important;
+         
+            }
+            &-7{
+             margin-left: $space-lg-7!important;
+            }
+        }
+    }
+ }
+ .mr{
+    @media (min-width: $breakpoint-lg){
+
+        &-lg{
+    
+            &-5{
+             margin-right: $space-lg-5!important;
+            }
+            &-6{
+             margin-right:$space-lg-6!important;
+         
+            }
+            &-7{
+             margin-right: $space-lg-7!important;
+            }
+        }
+    }
+ }
+.m{
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+
+            &-5{
+             margin: $space-lg-5!important;
+            }
+            &-6{
+             margin:$space-lg-6!important;
+         
+            }
+            &-7{
+             margin: $space-lg-7!important;
+            }
+        }
+    }
+ }
+ .p{
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+            
+            &-5{
+             padding: $space-lg-5!important;
+            }
+            &-6{
+                padding: $space-lg-6!important;
+         
+            }
+            &-7{
+                padding: $space-lg-7!important;
+            }
+        }
+    }
+ }
+ .pt{
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+            
+            &-5{
+             padding-top: $space-lg-5!important;
+            }
+            &-6{
+                padding-top: $space-lg-6!important;
+         
+            }
+            &-7{
+                padding-top: $space-lg-7!important;
+            }
+        }
+    }
+    @media (min-width: $breakpoint-sm){
+        &-lg{
+            
+            &-5{
+             padding-top: $space-lg-5!important;
+            }
+            &-6{
+                padding-top: $space-lg-6!important;
+         
+            }
+            &-7{
+                padding-top: $space-lg-7!important;
+            }
+        }
+    }
+ }
+ .pb{
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+            
+            &-5{
+             padding-bottom: $space-lg-5!important;
+            }
+            &-6{
+                padding-bottom: $space-lg-6!important;
+         
+            }
+            &-7{
+                padding-bottom: $space-lg-7!important;
+            }
+        }
+    }
+    @media (min-width: $breakpoint-sm){
+        &-lg{
+            
+            &-5{
+             padding-bottom: $space-lg-5!important;
+            }
+            &-6{
+                padding-bottom: $space-lg-6!important;
+         
+            }
+            &-7{
+                padding-bottom: $space-lg-7!important;
+            }
+        }
+    }
+ }
+ .pr{
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+            
+            &-5{
+             padding-right: $space-lg-5!important;
+            }
+            &-6{
+                padding-right: $space-lg-6!important;
+         
+            }
+            &-7{
+                padding-right: $space-lg-7!important;
+            }
+        }
+    }
+ }
+ .pl{
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+            
+            &-5{
+             padding-left: $space-lg-5!important;
+            }
+            &-6{
+                padding-left: $space-lg-6!important;
+         
+            }
+            &-7{
+                padding-left: $space-lg-7!important;
+            }
+        }
+    }
+ }
+.bg{
+    &-primary{
+        background: #916019 !important;
+    }
+    &-secondary{
+        background: #8D8D8D !important;
+    }
+    &-third{
+        background: #E0E0E0 !important;
+    }
+  
+     @media (min-width: $breakpoint-sm){
+            
+            &-sm{
+                &-grey{
+   
+                background: #707070 !important;
+            }
+         }
+    }
+    @media (min-width: $breakpoint-lg){
+            
+        &-lg{
+            &-white{
+
+            background: white !important;
+        }
+     }
+}
+    &-size{
+        &-cover{
+            background-size: cover !important;
+        }
+        &-contain{
+            background-size: contain !important;
+        }
+    }
+    &-pos{
+        &-top{
+            background-position: top !important;
+        }
+    }
+}
+.font-weight{
+    &-600{
+        font-weight: 600 !important;
+    }
+    &-bold{
+        font-weight: bold !important;
+    }
+}
+button.w{
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+            &-75{
+                width: 75% !important;
+            }
+            &-80{
+                width: 80% !important;
+            }
+        }
+    }
+}
+.w{
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+            &-75{
+                width: 75% !important;
+            }
+            &-80{
+                width: 80% !important;
+            }
+        }
+    }
+    @media (min-width: $breakpoint-sm){
+        &-sm{
+            &-100{
+                width: 100% !important;
+
+            }
+            &-75{
+                width: 75% !important;
+            }
+            &-80{
+                width: 80% !important;
+            }
+            &-50{
+                width: 50%;
+
+            }
+        }
+    }
+}
+.bottom{
+    &-0{
+      bottom: 0;
+
+    }
+}
+
+// =======字體========
+// 大小 and 行高
+.text{
+    &-size{
+        &-3xl{
+            font-size: 40px;
+
+        }
+        &-xxl{
+            font-size: 32px!important;   
+
+        }
+        &-xl{
+            font-size: 24px!important;   
+
+        }
+        &-l{
+            font-size: 20px!important;
+
+        }
+        &-m{
+            font-size: 16px!important;
+            
+        }
+        &-s{
+            font-size: 14px!important;
+            
+        }
+        &-xs{
+            font-size: 12px!important;
+            
+        }
+    }
+    &-lh{
+        &-3xl{
+            line-height: 60px!important;
+
+
+        }
+        &-xxl{
+            line-height: 48px!important;
+
+
+        }
+        &-xl{
+            line-height:36px!important;
+
+
+        }
+        &-l{
+            line-height: 30px!important;
+
+
+        }
+        &-m{
+            line-height: 24px!important;
+        }
+        &-s{
+            line-height: 21px!important;
+            
+        }
+    }
+   
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+            &-white{
+                color: white !important;
+            }
+            &-dark{
+                color: black !important;
+            }
+            &-secondary{
+                color: #8D8D8D !important;
+            }
+        }
+    }
+    @media (min-width: $breakpoint-sm){
+        &-sm{
+            &-white{
+                color: #FFFFFF !important;
+            }
+        }
+    }
+}
+@media (min-width: $breakpoint-lg){
+
+a.text-lg-secondary{
+            color: #8D8D8D !important;
+        }
+  
+}
+.list-style-none{
+    list-style: none !important;
+}
+.text-line-trough{
+    text-decoration:line-through  !important;
+}
+.border{
+    &-primary{
+        border: 2px solid  #916019  !important;
+    }
+    &-bottom{
+        &-grey{
+            border-bottom: 1px solid  #818A91 !important;
+        }
+    }
+    @media (min-width: $breakpoint-sm){
+        &-sm{
+            &-white{
+                &-top{
+                    border-top: 1px solid white;
+
+                }
+                &-bottom{
+                    border-bottom: 1px solid white;
+
+                }
+            }
+        }
+    }
+}
+.box-sizing{
+    &-content{
+        box-sizing: content;
+        
+            }
+
+}
+a.hover-grey-500:hover{
+color: #848484 !important;
+}
+a.hover-primary:hover{
+
+    color: #916019 !important;
+
+}
+button.hover-bg-white:hover{
+    background: white !important;
+    color: #916019 !important;
+    border: 1px solid #916019 !important;
+    
+}
+a.hover-bg-white:hover{
+    background: white !important;
+    color: #916019 !important;
+    border: 1px solid #916019 !important;
+    
+}
+.position{
+    @media (min-width: $breakpoint-lg){
+        &-lg{
+            &-relative{
+                position: relative;
+            }
+            &-absolute{
+                position: absolute;
+            }
+        }
+    }
+    @media (min-width: $breakpoint-sm){
+        &-sm{
+            &-relative{
+                position: relative;
+            }
+            &-absolute{
+                position: absolute;
+            }
+        }
+    }
+    &-top{
+        &--5{
+            top: -5px;
+        }
+
+    }
+    &-right{
+        &--5{
+            right: -5px;
+        }
+
+    }
+}
+.cursor-pointer{
+    cursor: pointer;
+}
